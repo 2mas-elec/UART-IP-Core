@@ -1,0 +1,109 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "interface_0_uart_conduit4",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit6",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit5",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit7",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit1",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit9",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit11",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "interface_0_uart_conduit2[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

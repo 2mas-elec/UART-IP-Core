@@ -1,0 +1,13 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst UART_PD.clk_0 -pg 1 -lvl 1 -y 150
+preplace inst UART_PD -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst UART_PD.interface_0 -pg 1 -lvl 2 -y 110
+preplace inst UART_PD.interface_1 -pg 1 -lvl 2 -y 30
+preplace netloc FAN_OUT<net_container>UART_PD</net_container>(SLAVE)interface_0.clock,(MASTER)clk_0.clk,(SLAVE)interface_1.clock) 1 1 1 260
+preplace netloc POINT_TO_POINT<net_container>UART_PD</net_container>(SLAVE)interface_0.conduit_end,(SLAVE)interface_1.conduit_end) 1 1 1 300
+preplace netloc EXPORT<net_container>UART_PD</net_container>(SLAVE)UART_PD.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>UART_PD</net_container>(SLAVE)interface_1.reset,(MASTER)clk_0.clk_reset,(SLAVE)interface_0.reset) 1 1 1 280
+preplace netloc EXPORT<net_container>UART_PD</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)UART_PD.reset) 1 0 1 NJ
+levelinfo -pg 1 0 50 440
+levelinfo -hier UART_PD 60 90 330 430

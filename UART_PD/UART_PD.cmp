@@ -1,0 +1,18 @@
+	component UART_PD is
+		port (
+			clk_clk                 : in  std_logic                    := 'X';             -- clk
+			reset_reset_n           : in  std_logic                    := 'X';             -- reset_n
+			uart_external_conduit11 : in  std_logic                    := 'X';             -- conduit11
+			uart_external_conduit9  : in  std_logic                    := 'X';             -- conduit9
+			uart_external_conduit2  : in  std_logic_vector(7 downto 0) := (others => 'X'); -- conduit2
+			uart_external_conduit4  : out std_logic;                                       -- conduit4
+			uart_external_conduit6  : out std_logic;                                       -- conduit6
+			uart_external_conduit8  : out std_logic;                                       -- conduit8
+			uart_external_conduit5  : out std_logic;                                       -- conduit5
+			uart_external_conduit7  : out std_logic;                                       -- conduit7
+			uart_external_conduit1  : out std_logic;                                       -- conduit1
+			uart_external_conduit10 : out std_logic;                                       -- conduit10
+			uart_external_conduit3  : out std_logic_vector(7 downto 0)                     -- conduit3
+		);
+	end component UART_PD;
+
