@@ -1,0 +1,27 @@
+# Quartus
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+
+# Platform Designer temporary files
+.qsys_edit/
+unsaved/
+
+# ModelSim
+work/
+transcript
+vsim.wlf
+*.wlf
+
+# Reports
+*.rpt
+*.summary
+
+# Backup files
+*.bak
+*~
+
+# Windows
+Thumbs.db
+desktop.ini

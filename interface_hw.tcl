@@ -33,19 +33,19 @@ set_module_property REPORT_HIERARCHY false
 
 
 # 
-# file sets
-# 
+# File sets
+
 add_fileset QUARTUS_SYNTH QUARTUS_SYNTH "" ""
 set_fileset_property QUARTUS_SYNTH TOP_LEVEL SYS_TOP
 set_fileset_property QUARTUS_SYNTH ENABLE_RELATIVE_INCLUDE_PATHS false
 set_fileset_property QUARTUS_SYNTH ENABLE_FILE_OVERWRITE_MODE false
-add_fileset_file baud_gen.vhdl VHDL PATH baud_gen.vhdl
-add_fileset_file FIFO.vhdl VHDL PATH FIFO.vhdl
-add_fileset_file my_package.vhdl VHDL PATH my_package.vhdl
-add_fileset_file SYS_TOP.VHDL VHDL PATH SYS_TOP.VHDL TOP_LEVEL_FILE
-add_fileset_file UART_RX.vhdl VHDL PATH UART_RX.vhdl
-add_fileset_file UART_TX.vhdl VHDL PATH UART_TX.vhdl
 
+add_fileset_file RTL/baud_gen.vhdl   VHDL PATH RTL/baud_gen.vhdl
+add_fileset_file RTL/FIFO.vhdl       VHDL PATH RTL/FIFO.vhdl
+add_fileset_file RTL/my_package.vhdl VHDL PATH RTL/my_package.vhdl
+add_fileset_file RTL/SYS_TOP.vhdl    VHDL PATH RTL/SYS_TOP.vhdl TOP_LEVEL_FILE
+add_fileset_file RTL/UART_RX.vhdl    VHDL PATH RTL/UART_RX.vhdl
+add_fileset_file RTL/UART_TX.vhdl    VHDL PATH RTL/UART_TX.vhdl
 
 # 
 # parameters

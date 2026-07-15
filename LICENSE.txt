@@ -1,0 +1,28 @@
+UART IP Core
+Copyright (c) 2026 2M A S. All rights reserved.
+
+This project, including all source code, documentation, images, diagrams,
+and associated files, is the exclusive property of the author.
+
+This repository is made publicly available solely for evaluation,
+educational, portfolio, and demonstration purposes.
+
+Unless prior written permission has been obtained from the copyright owner,
+you may NOT:
+
+- Copy the source code.
+- Modify the source code.
+- Redistribute the source code.
+- Incorporate this IP Core into another project.
+- Use this IP Core in commercial or production systems.
+- Sell or sublicense any part of this project.
+
+Commercial licensing is available upon request.
+
+For licensing inquiries, technical support, customization requests,
+or commercial partnerships, please contact the author.
+
+Author: 2M A S
+Email: your.email@example.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
